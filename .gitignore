@@ -1,0 +1,20 @@
+# Environment variables (contains API keys)
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# IDE settings
+.vscode/
+
+# Test logs
+tests/test_run_*.log
+tests/*.log
+
+# Git
+.git/
