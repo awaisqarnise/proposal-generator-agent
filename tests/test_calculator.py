@@ -2,7 +2,11 @@
 """
 Test script to debug calculator cost estimation
 """
-from src.tools.calculator import estimate_hours, estimate_cost, calculate_timeline
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+
+from tools.calculator import estimate_hours, estimate_cost, calculate_timeline
 
 
 def test_scenario(name, deliverables, project_type="Custom Software"):

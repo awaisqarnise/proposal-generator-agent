@@ -76,7 +76,7 @@ def main():
 
     # Test input
     test_input = {
-        "user_input": """Need e-commerce site in 2 weeks""",
+        "user_input": """E-commerce platform with cart, checkout, payment (Stripe), admin dashboard, reviews. Timeline: 4 months, Budget: $80k, Tech: React + Node.js""",
         "project_type": None,
         "deliverables": None,
         "timeline_hints": None,
